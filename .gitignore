@@ -1,0 +1,8 @@
+myvenv
+data
+*.txt
+*.csv
+*.pptx
+*.pdf
+*.env
+
