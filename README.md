@@ -1,1 +1,0 @@
-# LGD_anomaly_detection
