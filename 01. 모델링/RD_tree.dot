@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="ROLLDOWN.폐기.LEFT. <= 0.049\ngini = 0.5\nsamples = 1675\nvalue = [821.0, 854.0]\nclass = 0", fillcolor="#f7fbfe"] ;
+1 [label="투입.LEFT. <= 0.159\ngini = 0.091\nsamples = 813\nvalue = [774, 39]\nclass = 1", fillcolor="#e68743"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="ROLLDOWN.폐기.LEFT. <= 0.01\ngini = 0.437\nsamples = 31\nvalue = [10, 21]\nclass = 0", fillcolor="#97ccf1"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 10\nvalue = [10, 0]\nclass = 1", fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 21\nvalue = [0, 21]\nclass = 0", fillcolor="#399de5"] ;
+2 -> 4 ;
+5 [label="폐기율... <= 0.304\ngini = 0.045\nsamples = 782\nvalue = [764, 18]\nclass = 1", fillcolor="#e6843e"] ;
+1 -> 5 ;
+6 [label="투입.LEFT. <= 0.402\ngini = 0.035\nsamples = 778\nvalue = [764, 14]\nclass = 1", fillcolor="#e5833d"] ;
+5 -> 6 ;
+7 [label="ROLLDOWN.폐기.LEFT. <= 0.03\ngini = 0.292\nsamples = 79\nvalue = [65, 14]\nclass = 1", fillcolor="#eb9c64"] ;
+6 -> 7 ;
+8 [label="gini = 0.0\nsamples = 65\nvalue = [65, 0]\nclass = 1", fillcolor="#e58139"] ;
+7 -> 8 ;
+9 [label="gini = 0.0\nsamples = 14\nvalue = [0, 14]\nclass = 0", fillcolor="#399de5"] ;
+7 -> 9 ;
+10 [label="gini = 0.0\nsamples = 699\nvalue = [699, 0]\nclass = 1", fillcolor="#e58139"] ;
+6 -> 10 ;
+11 [label="gini = 0.0\nsamples = 4\nvalue = [0, 4]\nclass = 0", fillcolor="#399de5"] ;
+5 -> 11 ;
+12 [label="ROLLDOWN.폐기.LEFT. <= 0.068\ngini = 0.103\nsamples = 862\nvalue = [47, 815]\nclass = 0", fillcolor="#44a3e6"] ;
+0 -> 12 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+13 [label="투입.LEFT. <= 0.646\ngini = 0.448\nsamples = 139\nvalue = [47, 92]\nclass = 0", fillcolor="#9ecff2"] ;
+12 -> 13 ;
+14 [label="gini = 0.0\nsamples = 92\nvalue = [0, 92]\nclass = 0", fillcolor="#399de5"] ;
+13 -> 14 ;
+15 [label="gini = 0.0\nsamples = 47\nvalue = [47, 0]\nclass = 1", fillcolor="#e58139"] ;
+13 -> 15 ;
+16 [label="gini = 0.0\nsamples = 723\nvalue = [0, 723]\nclass = 0", fillcolor="#399de5"] ;
+12 -> 16 ;
+}
