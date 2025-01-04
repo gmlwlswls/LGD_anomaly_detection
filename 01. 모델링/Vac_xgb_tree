@@ -1,0 +1,443 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="DB.N2.SCREEN.FLOW.LEFT.1FI49011_PV<-0.0596023649" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="bgm_predict_proba_3<0.00296098879" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="D_AB9_U_LR<0.359325767" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="X.7.BAY.RIGHT.PRESSURE.1CLBAY7RIGHT_CPV<-0.0778902844" ]
+    7 -> 15 [label="yes" color="#FF0000"]
+    7 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="D_GLS_F_LR<0.109397829" ]
+    15 -> 31 [label="yes" color="#FF0000"]
+    15 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="le_re_btm_dn<0.415051877" ]
+    31 -> 57 [label="yes" color="#FF0000"]
+    31 -> 58 [label="no, missing" color="#0000FF"]
+
+    57 [ label="LOR.3.L.Axis<0.355381519" ]
+    57 -> 79 [label="yes" color="#FF0000"]
+    57 -> 80 [label="no, missing" color="#0000FF"]
+
+    79 [ label="leaf=0.151858181" ]
+
+    80 [ label="leaf=-0.00085438462" ]
+
+    58 [ label="ROOF.HEATING.Zone45.1JIC31145.PV<0.0256860275" ]
+    58 -> 81 [label="yes" color="#FF0000"]
+    58 -> 82 [label="no, missing" color="#0000FF"]
+
+    81 [ label="UPPER.AB8.Z99.TMP.1TIC41801.PV<0.493773848" ]
+    81 -> 113 [label="yes" color="#FF0000"]
+    81 -> 114 [label="no, missing" color="#0000FF"]
+
+    113 [ label="leaf=-0.128182992" ]
+
+    114 [ label="leaf=-0.0230139438" ]
+
+    82 [ label="leaf=0.065719597" ]
+
+    32 [ label="DB.BTM.UP.STM.TC.RC.1TI40402_PV<1.19921565" ]
+    32 -> 59 [label="yes" color="#FF0000"]
+    32 -> 60 [label="no, missing" color="#0000FF"]
+
+    59 [ label="Gross.width<1.01992929" ]
+    59 -> 83 [label="yes" color="#FF0000"]
+    59 -> 84 [label="no, missing" color="#0000FF"]
+
+    83 [ label="leaf=-0.167860374" ]
+
+    84 [ label="leaf=-0.0230139438" ]
+
+    60 [ label="leaf=0.0658774525" ]
+
+    16 [ label="ROOF.HEATING.Zone63.1JIC31163.PV<-0.87250644" ]
+    16 -> 33 [label="yes" color="#FF0000"]
+    16 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="D_AB1_U_LR<-0.058501035" ]
+    33 -> 61 [label="yes" color="#FF0000"]
+    33 -> 62 [label="no, missing" color="#0000FF"]
+
+    61 [ label="DB.HEAT.BTM.LEFT.1.TMP.1TI40315.PV<-0.499509454" ]
+    61 -> 85 [label="yes" color="#FF0000"]
+    61 -> 86 [label="no, missing" color="#0000FF"]
+
+    85 [ label="leaf=-0.15403603" ]
+
+    86 [ label="leaf=-0.000949319452" ]
+
+    62 [ label="D_AB8_U_LR<0.285728067" ]
+    62 -> 87 [label="yes" color="#FF0000"]
+    62 -> 88 [label="no, missing" color="#0000FF"]
+
+    87 [ label="D_C4_U_LR<0.443110198" ]
+    87 -> 115 [label="yes" color="#FF0000"]
+    87 -> 116 [label="no, missing" color="#0000FF"]
+
+    115 [ label="leaf=0.0323851407" ]
+
+    116 [ label="leaf=0.169164702" ]
+
+    88 [ label="leaf=-0.111905336" ]
+
+    34 [ label="bgm_predict_proba_0<2.30518249e-09" ]
+    34 -> 63 [label="yes" color="#FF0000"]
+    34 -> 64 [label="no, missing" color="#0000FF"]
+
+    63 [ label="S_AB2_AB3_U_L<0.651403129" ]
+    63 -> 89 [label="yes" color="#FF0000"]
+    63 -> 90 [label="no, missing" color="#0000FF"]
+
+    89 [ label="DB.HEAT.BOTTOM.1.1JIC40308.PV<1.57849896" ]
+    89 -> 117 [label="yes" color="#FF0000"]
+    89 -> 118 [label="no, missing" color="#0000FF"]
+
+    117 [ label="LOR.2.R.Axis<0.55661118" ]
+    117 -> 129 [label="yes" color="#FF0000"]
+    117 -> 130 [label="no, missing" color="#0000FF"]
+
+    129 [ label="X.1.LEHR.O2.ANALYZER.1AI44111.PV<-1.13154221" ]
+    129 -> 141 [label="yes" color="#FF0000"]
+    129 -> 142 [label="no, missing" color="#0000FF"]
+
+    141 [ label="leaf=0.0214317534" ]
+
+    142 [ label="leaf=0.17045556" ]
+
+    130 [ label="ROOF.HEATING.Zone.4.1JIC31104.PV.1<-0.19154489" ]
+    130 -> 143 [label="yes" color="#FF0000"]
+    130 -> 144 [label="no, missing" color="#0000FF"]
+
+    143 [ label="leaf=-0.0190885719" ]
+
+    144 [ label="leaf=0.113272719" ]
+
+    118 [ label="leaf=-0.00085438462" ]
+
+    90 [ label="leaf=-0.0554533787" ]
+
+    64 [ label="D_GLS_F_LR<-0.677930295" ]
+    64 -> 91 [label="yes" color="#FF0000"]
+    64 -> 92 [label="no, missing" color="#0000FF"]
+
+    91 [ label="LOR.3.L.Axis<0.182638764" ]
+    91 -> 119 [label="yes" color="#FF0000"]
+    91 -> 120 [label="no, missing" color="#0000FF"]
+
+    119 [ label="leaf=0.110323146" ]
+
+    120 [ label="leaf=-0.0230139438" ]
+
+    92 [ label="leaf=-0.120858036" ]
+
+    8 [ label="LOR.2.R.Axis<1.87669981" ]
+    8 -> 17 [label="yes" color="#FF0000"]
+    8 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="LOR.2.R.Hori<0.456602752" ]
+    17 -> 35 [label="yes" color="#FF0000"]
+    17 -> 36 [label="no, missing" color="#0000FF"]
+
+    35 [ label="leaf=-0.172024593" ]
+
+    36 [ label="leaf=-0.0190885719" ]
+
+    18 [ label="bgm_predict_proba_0<4.20389539e-45" ]
+    18 -> 37 [label="yes" color="#FF0000"]
+    18 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="leaf=0.132388517" ]
+
+    38 [ label="leaf=-0.0554533787" ]
+
+    4 [ label="X.2.LEHR.O2.ANALYZER.1AI44113.PV<-0.410116464" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="LIFT.OUT.ROL.MTR.M1.CUR.1WII40101.PV<-1.67635131" ]
+    9 -> 19 [label="yes" color="#FF0000"]
+    9 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="leaf=0.119149268" ]
+
+    20 [ label="leaf=-0.134287164" ]
+
+    10 [ label="DB.HEAT.BOTTOM.1.1JIC40308.PV<0.424083203" ]
+    10 -> 21 [label="yes" color="#FF0000"]
+    10 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="ROOF.HEATING.Zone81.1JIC31181.PV<0.0457630269" ]
+    21 -> 39 [label="yes" color="#FF0000"]
+    21 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="ATM.FLOW.SECT.2.N2.1FI33401.PV<-0.724496007" ]
+    39 -> 65 [label="yes" color="#FF0000"]
+    39 -> 66 [label="no, missing" color="#0000FF"]
+
+    65 [ label="leaf=0.0214317534" ]
+
+    66 [ label="LOR.3.L.Axis<-0.663515568" ]
+    66 -> 93 [label="yes" color="#FF0000"]
+    66 -> 94 [label="no, missing" color="#0000FF"]
+
+    93 [ label="leaf=0.0214317534" ]
+
+    94 [ label="LOR.2.R.Axis<-0.778391719" ]
+    94 -> 121 [label="yes" color="#FF0000"]
+    94 -> 122 [label="no, missing" color="#0000FF"]
+
+    121 [ label="N2.TO.EA1313B.1FI33527A_PV<1.01224375" ]
+    121 -> 131 [label="yes" color="#FF0000"]
+    121 -> 132 [label="no, missing" color="#0000FF"]
+
+    131 [ label="leaf=0.137480557" ]
+
+    132 [ label="leaf=-0.0674596354" ]
+
+    122 [ label="N2.TO.EA1313A.1FI33503A_PV<-1.67564046" ]
+    122 -> 133 [label="yes" color="#FF0000"]
+    122 -> 134 [label="no, missing" color="#0000FF"]
+
+    133 [ label="leaf=0.0759399459" ]
+
+    134 [ label="leaf=0.189737082" ]
+
+    40 [ label="leaf=0.0451696329" ]
+
+    22 [ label="X.1.BAY.LEFT.PRESSURE.1CLBAY1LEFT_CPV<-0.49031654" ]
+    22 -> 41 [label="yes" color="#FF0000"]
+    22 -> 42 [label="no, missing" color="#0000FF"]
+
+    41 [ label="leaf=0.141845182" ]
+
+    42 [ label="leaf=-0.111905336" ]
+
+    2 [ label="bgm_predict_proba_0<0.99904418" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="ATM.N2.H2.5..함유율.1CLFI33402_CPV<-0.614930272" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="l_r_top_n.1<-0.524605095" ]
+    11 -> 23 [label="yes" color="#FF0000"]
+    11 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="D_AB1_U_LR<-1.07773793" ]
+    23 -> 43 [label="yes" color="#FF0000"]
+    23 -> 44 [label="no, missing" color="#0000FF"]
+
+    43 [ label="leaf=-0.0342837796" ]
+
+    44 [ label="D_AB10_U_LR<-0.126380995" ]
+    44 -> 67 [label="yes" color="#FF0000"]
+    44 -> 68 [label="no, missing" color="#0000FF"]
+
+    67 [ label="leaf=0.169164702" ]
+
+    68 [ label="leaf=-0.0230139438" ]
+
+    24 [ label="LOR.3.L.Hori<-0.737060487" ]
+    24 -> 45 [label="yes" color="#FF0000"]
+    24 -> 46 [label="no, missing" color="#0000FF"]
+
+    45 [ label="leaf=0.0658774525" ]
+
+    46 [ label="leaf=-0.137971789" ]
+
+    12 [ label="bgm_predict_proba_3<4.97750499e-08" ]
+    12 -> 25 [label="yes" color="#FF0000"]
+    12 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="N2.TO.EA1313B.1FI33527A_PV<-0.844590425" ]
+    25 -> 47 [label="yes" color="#FF0000"]
+    25 -> 48 [label="no, missing" color="#0000FF"]
+
+    47 [ label="ATM.N2.H2.5..함유율.1CLFI33402_CPV<1.45535064" ]
+    47 -> 69 [label="yes" color="#FF0000"]
+    47 -> 70 [label="no, missing" color="#0000FF"]
+
+    69 [ label="X.2.LEHR.SO2.ANALYZER.1AI44112.PV<0.0453066863" ]
+    69 -> 95 [label="yes" color="#FF0000"]
+    69 -> 96 [label="no, missing" color="#0000FF"]
+
+    95 [ label="leaf=0.0214317534" ]
+
+    96 [ label="leaf=0.154454142" ]
+
+    70 [ label="D_GLS_AB7_LR<-0.857010543" ]
+    70 -> 97 [label="yes" color="#FF0000"]
+    70 -> 98 [label="no, missing" color="#0000FF"]
+
+    97 [ label="leaf=0.0536410473" ]
+
+    98 [ label="leaf=-0.139452234" ]
+
+    48 [ label="r_tin_bay_5_7<-1.33977413" ]
+    48 -> 71 [label="yes" color="#FF0000"]
+    48 -> 72 [label="no, missing" color="#0000FF"]
+
+    71 [ label="leaf=0.0143993217" ]
+
+    72 [ label="X.1.LEHR.SO2.ANALYZER.1AI44110.PV<1.53975403" ]
+    72 -> 99 [label="yes" color="#FF0000"]
+    72 -> 100 [label="no, missing" color="#0000FF"]
+
+    99 [ label="SPOUT.RIGHT.BOTTOM.1FI33518.PV<-0.500098825" ]
+    99 -> 123 [label="yes" color="#FF0000"]
+    99 -> 124 [label="no, missing" color="#0000FF"]
+
+    123 [ label="DB.BTM.UP.STM.TC.RE.1TI40403_PV<-0.48907271" ]
+    123 -> 135 [label="yes" color="#FF0000"]
+    123 -> 136 [label="no, missing" color="#0000FF"]
+
+    135 [ label="leaf=0.0658774525" ]
+
+    136 [ label="leaf=-0.128182992" ]
+
+    124 [ label="X.7.BAY.RIGHT.PRESSURE.1CLBAY7RIGHT_CPV<-1.79711449" ]
+    124 -> 137 [label="yes" color="#FF0000"]
+    124 -> 138 [label="no, missing" color="#0000FF"]
+
+    137 [ label="leaf=-0.0342837796" ]
+
+    138 [ label="top_5<1.58159304" ]
+    138 -> 145 [label="yes" color="#FF0000"]
+    138 -> 146 [label="no, missing" color="#0000FF"]
+
+    145 [ label="leaf=-0.188215151" ]
+
+    146 [ label="leaf=-0.0677134022" ]
+
+    100 [ label="leaf=0.0214317534" ]
+
+    26 [ label="ROOF.HT.BAY.3.TOTAL.PWR.1CLBAY3_CPV<-0.679131746" ]
+    26 -> 49 [label="yes" color="#FF0000"]
+    26 -> 50 [label="no, missing" color="#0000FF"]
+
+    49 [ label="LOR.1.L.Axis<-0.0670884699" ]
+    49 -> 73 [label="yes" color="#FF0000"]
+    49 -> 74 [label="no, missing" color="#0000FF"]
+
+    73 [ label="ROOF.HEATING.Zone.4.1JIC31104.PV.1<-1.13726139" ]
+    73 -> 101 [label="yes" color="#FF0000"]
+    73 -> 102 [label="no, missing" color="#0000FF"]
+
+    101 [ label="leaf=-0.111905336" ]
+
+    102 [ label="leaf=0.0391468331" ]
+
+    74 [ label="N2.TO.HOOD.DOWN.STREAM.1FI33505A_PV<-0.810969412" ]
+    74 -> 103 [label="yes" color="#FF0000"]
+    74 -> 104 [label="no, missing" color="#0000FF"]
+
+    103 [ label="leaf=-0.0230139438" ]
+
+    104 [ label="leaf=0.154349253" ]
+
+    50 [ label="DB.BTM.UP.STM.TC.RC.1TI40402_PV<0.203918323" ]
+    50 -> 75 [label="yes" color="#FF0000"]
+    50 -> 76 [label="no, missing" color="#0000FF"]
+
+    75 [ label="S_AB2_AB3_U_L<-0.805203676" ]
+    75 -> 105 [label="yes" color="#FF0000"]
+    75 -> 106 [label="no, missing" color="#0000FF"]
+
+    105 [ label="leaf=0.0214317534" ]
+
+    106 [ label="leaf=-0.167939946" ]
+
+    76 [ label="le_re_btm_dn<0.627726734" ]
+    76 -> 107 [label="yes" color="#FF0000"]
+    76 -> 108 [label="no, missing" color="#0000FF"]
+
+    107 [ label="LOR.1.R.Axis<0.0251282547" ]
+    107 -> 125 [label="yes" color="#FF0000"]
+    107 -> 126 [label="no, missing" color="#0000FF"]
+
+    125 [ label="leaf=0.145627856" ]
+
+    126 [ label="ROOF.HEATING.Zone53.1JIC31153.PV<0.542560697" ]
+    126 -> 139 [label="yes" color="#FF0000"]
+    126 -> 140 [label="no, missing" color="#0000FF"]
+
+    139 [ label="leaf=-0.111905336" ]
+
+    140 [ label="leaf=0.0658774525" ]
+
+    108 [ label="Gross.width<0.0159193706" ]
+    108 -> 127 [label="yes" color="#FF0000"]
+    108 -> 128 [label="no, missing" color="#0000FF"]
+
+    127 [ label="leaf=-0.0230139438" ]
+
+    128 [ label="leaf=-0.143879443" ]
+
+    6 [ label="TMP.GLASS..BAY.1.1TI30101.PV<2.09251451" ]
+    6 -> 13 [label="yes" color="#FF0000"]
+    6 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="bgm_predict_proba_1<1.19326216e-06" ]
+    13 -> 27 [label="yes" color="#FF0000"]
+    13 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="LOR.1.L.Axis<0.130213901" ]
+    27 -> 51 [label="yes" color="#FF0000"]
+    27 -> 52 [label="no, missing" color="#0000FF"]
+
+    51 [ label="D_AB8_L_UL<-1.44889963" ]
+    51 -> 77 [label="yes" color="#FF0000"]
+    51 -> 78 [label="no, missing" color="#0000FF"]
+
+    77 [ label="bgm_predict_proba_2<8.9130384e-35" ]
+    77 -> 109 [label="yes" color="#FF0000"]
+    77 -> 110 [label="no, missing" color="#0000FF"]
+
+    109 [ label="leaf=-0.163064167" ]
+
+    110 [ label="leaf=0.0391468331" ]
+
+    78 [ label="N2.TO.HOOD.DOWN.STREAM.1FI33505A_PV<0.755854845" ]
+    78 -> 111 [label="yes" color="#FF0000"]
+    78 -> 112 [label="no, missing" color="#0000FF"]
+
+    111 [ label="leaf=-0.19657205" ]
+
+    112 [ label="leaf=-0.0779116079" ]
+
+    52 [ label="leaf=-0.0342837796" ]
+
+    28 [ label="D_AB8_L_UL<-0.472164661" ]
+    28 -> 53 [label="yes" color="#FF0000"]
+    28 -> 54 [label="no, missing" color="#0000FF"]
+
+    53 [ label="leaf=-0.120858036" ]
+
+    54 [ label="leaf=0.110323146" ]
+
+    14 [ label="D_AB8_L_UL<0.248199895" ]
+    14 -> 29 [label="yes" color="#FF0000"]
+    14 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="UPPER.AB1.Z1.TMP.1TIC41101.PV<-0.236780033" ]
+    29 -> 55 [label="yes" color="#FF0000"]
+    29 -> 56 [label="no, missing" color="#0000FF"]
+
+    55 [ label="leaf=-0.0230139438" ]
+
+    56 [ label="leaf=-0.143879443" ]
+
+    30 [ label="leaf=0.0900058597" ]
+}
