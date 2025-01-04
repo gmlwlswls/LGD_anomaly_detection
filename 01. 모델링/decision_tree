@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="Malgun Gothic"] ;
+edge [fontname="Malgun Gothic"] ;
+0 [label=<ROLLDOWN.폐기.LEFT. &le; 2.5<br/>gini = 0.5<br/>samples = 1675<br/>value = [821.0, 854.0]<br/>class = 양품>, fillcolor="#f7fbfe"] ;
+1 [label=<투입.LEFT. &le; 29.5<br/>gini = 0.091<br/>samples = 813<br/>value = [774, 39]<br/>class = 불량>, fillcolor="#e68743"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<ROLLDOWN.폐기.LEFT. &le; 0.5<br/>gini = 0.437<br/>samples = 31<br/>value = [10, 21]<br/>class = 양품>, fillcolor="#97ccf1"] ;
+1 -> 2 ;
+3 [label=<gini = 0.0<br/>samples = 10<br/>value = [10, 0]<br/>class = 불량>, fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 21<br/>value = [0, 21]<br/>class = 양품>, fillcolor="#399de5"] ;
+2 -> 4 ;
+5 [label=<폐기율... &le; 18.935<br/>gini = 0.045<br/>samples = 782<br/>value = [764, 18]<br/>class = 불량>, fillcolor="#e6843e"] ;
+1 -> 5 ;
+6 [label=<투입.LEFT. &le; 59.5<br/>gini = 0.035<br/>samples = 778<br/>value = [764, 14]<br/>class = 불량>, fillcolor="#e5833d"] ;
+5 -> 6 ;
+7 [label=<ROLLDOWN.폐기.LEFT. &le; 1.5<br/>gini = 0.292<br/>samples = 79<br/>value = [65, 14]<br/>class = 불량>, fillcolor="#eb9c64"] ;
+6 -> 7 ;
+8 [label=<gini = 0.0<br/>samples = 65<br/>value = [65, 0]<br/>class = 불량>, fillcolor="#e58139"] ;
+7 -> 8 ;
+9 [label=<gini = 0.0<br/>samples = 14<br/>value = [0, 14]<br/>class = 양품>, fillcolor="#399de5"] ;
+7 -> 9 ;
+10 [label=<gini = 0.0<br/>samples = 699<br/>value = [699, 0]<br/>class = 불량>, fillcolor="#e58139"] ;
+6 -> 10 ;
+11 [label=<gini = 0.0<br/>samples = 4<br/>value = [0, 4]<br/>class = 양품>, fillcolor="#399de5"] ;
+5 -> 11 ;
+12 [label=<ROLLDOWN.폐기.LEFT. &le; 3.5<br/>gini = 0.103<br/>samples = 862<br/>value = [47, 815]<br/>class = 양품>, fillcolor="#44a3e6"] ;
+0 -> 12 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+13 [label=<투입.LEFT. &le; 89.5<br/>gini = 0.448<br/>samples = 139<br/>value = [47, 92]<br/>class = 양품>, fillcolor="#9ecff2"] ;
+12 -> 13 ;
+14 [label=<gini = 0.0<br/>samples = 92<br/>value = [0, 92]<br/>class = 양품>, fillcolor="#399de5"] ;
+13 -> 14 ;
+15 [label=<gini = 0.0<br/>samples = 47<br/>value = [47, 0]<br/>class = 불량>, fillcolor="#e58139"] ;
+13 -> 15 ;
+16 [label=<gini = 0.0<br/>samples = 723<br/>value = [0, 723]<br/>class = 양품>, fillcolor="#399de5"] ;
+12 -> 16 ;
+}
